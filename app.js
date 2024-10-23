@@ -83,17 +83,16 @@ const GameController = (function() {
     function createPlayer(name, marker) {
         this.name = name;
         this.marker = marker;
-        this.printPlayerInfo = function() {
-            console.log(`${this.name} is playing as the: ${this.marker}`)
-        }
-        return {name, marker, printPlayerInfo}
+        
+        return {name, marker, }
     }
+    
 
     return { createPlayer }
 })();
-
 
 // ttt 
 // need a gameboard IIFE
 // create divs with the board 
 // game logic
+//

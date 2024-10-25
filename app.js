@@ -87,7 +87,9 @@ const GameController = (function() {
         return {name, marker, }
     }
     
+    function playRound() {
 
+    }
     return { createPlayer }
 })();
 
